@@ -1,0 +1,44 @@
+.container {
+    display:inline-block;
+    color: white;
+    box-shadow: 0px 0px 2px 2px #ccc;
+    border: 1px solid #eee;
+    position: absolute;
+}
+
+.container:focus-within{
+    box-shadow: 0px 0px 2px 2px #8ccccc;
+    outline:none;
+}
+
+.heading{
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    background-color: #2b6868;
+}
+
+.editor{
+    min-height: 260px;
+    width: 100%;
+    resize: vertical;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    padding-left: 10px;
+}
+
+.editor:focus{
+    outline:none
+}
+
+.previewer{
+    position: relative;
+    bottom: 20px;
+    min-height: 260px;
+    text-align: left;
+    color: black;
+    width: 100%;
+    background-color: lavenderblush;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
